@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Host An Event
+	</title>
+
+	<style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background-color: lightblue;
+			/* font-family: sans-serif; */
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: white;
+			max-width: 600px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+	    button {
+        text-transform: uppercase;
+        outline: 0;
+        background-color: lightblue;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: black;
+        font-size: 14px;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+	</style>
+</head>
+
+<body>
+	<h1>Host An Event</h1>
+
+	<!-- Create Form -->
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Event Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Event Name" />
+		</div>
+
+		<div class="form-control">
+			<label for="organizationname" id="label-email">
+				Organization Name
+			</label>
+
+			<!-- Input Type Text-->
+			<input type="text"
+				id="organizationname"
+				placeholder="Organization Name" />
+		</div>
+
+        <div class="form-control">
+			<label for="branch" id="label-email">
+				Branch
+			</label>
+
+			<!-- Input Type Text-->
+			<input type="text"
+				id="branch"
+				placeholder="Branch" />
+		</div>
+		<div class="form-control">
+			<label for="clubname" id="label-age">
+				Club Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="clubname"
+				placeholder="Club Name" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Open-For
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+                <option value="ALL">ALL</option>
+				<option value="MMCOE">MMCOE</option>
+				<option value="VIT">VIT</option>
+				<option value="VIIT">
+					VIIT
+				</option>
+			</select>
+		</div>
+		<!-- Submit Button -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+</body>
+
+</html>
