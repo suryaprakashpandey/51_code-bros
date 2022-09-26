@@ -154,6 +154,8 @@ a {
 #about{
 	padding-top: 10px;
 	padding-bottom: 50px;
+	background-color: #0a193d;
+	color: white;
 }
 
 #about h1{
