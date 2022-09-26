@@ -182,12 +182,14 @@ a {
 }
 
 #product-col2 ul{
-	padding-top: 90px;
+	padding-top: 40px;
 }
 
-#product-col2 ul li{
-	padding-top: 15px;
+#product-col2{
+	padding-top: 10px;
+	padding-right: 20px;
 }
+
 
 /* social */
 
