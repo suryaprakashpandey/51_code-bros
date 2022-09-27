@@ -89,26 +89,18 @@ mysqli_close($conn);
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #04AA6D;">
-  <a class="navbar-brand" href="/index.html">WeLink</a>
+  <a class="navbar-brand" href="C:\Users\91702\Documents\GitHub\51_code-bros\index.html">WeLink</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="C:\Users\91702\Documents\GitHub\51_code-bros\index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.php">Register</a>
+        <a class="nav-link" href="C:\Users\91702\Documents\GitHub\51_code-bros\html files\login.html">Login</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="logout.php">Logout</a>
-      </li>
-
-      
      
     </ul>
   </div>
@@ -117,11 +109,11 @@ mysqli_close($conn);
 <div class="container mt-4">
 <h3>Please Register Here:</h3>
 <hr>
-<form action="" method="post">
+<form action="C:\xampp\htdocs\login\login.php" method="post">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Username</label>
-      <input type="text" class="form-control" name="username" id="inputEmail4" placeholder="Email">
+      <input type="text" class="form-control" name="username" id="inputEmail4" placeholder="username">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Password</label>
@@ -132,24 +124,20 @@ mysqli_close($conn);
       <label for="inputPassword4">Confirm Password</label>
       <input type="password" class="form-control" name ="confirm_password" id="inputPassword" placeholder="Confirm Password">
     </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
+      <label for="inputCity">College</label>
       <input type="text" class="form-control" id="inputCity">
     </div>
     <div class="form-group col-md-4">
-      <label for="inputState">State</label>
+      <label for="inputState">Department</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
         <option>...</option>
       </select>
     </div>
     <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
+      <label for="inputZip">Contact no.</label>
       <input type="text" class="form-control" id="inputZip">
     </div>
   </div>
@@ -157,7 +145,7 @@ mysqli_close($conn);
 <button type="submit" class="registerbtn">Register</button>
 </div>
 <div class="container signin">
-            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+            <p>Already have an account? <a href="C:\Users\91702\Documents\GitHub\51_code-bros\html files\login.html">Sign in</a>.</p>
         </div>
 </form>
 </div>
