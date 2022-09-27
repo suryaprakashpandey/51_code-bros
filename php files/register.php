@@ -89,17 +89,17 @@ mysqli_close($conn);
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #04AA6D;">
-  <a class="navbar-brand" href="/index.html">WeLink</a>
+  <a class="navbar-brand" href="C:\Users\91702\Documents\GitHub\51_code-bros\index.html">WeLink</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
   <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="C:\Users\91702\Documents\GitHub\51_code-bros\index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
+        <a class="nav-link" href="C:\Users\91702\Documents\GitHub\51_code-bros\html files\login.html">Login</a>
       </li>
      
     </ul>
@@ -145,7 +145,7 @@ mysqli_close($conn);
 <button type="submit" class="registerbtn">Register</button>
 </div>
 <div class="container signin">
-            <p>Already have an account? <a href="login.html">Sign in</a>.</p>
+            <p>Already have an account? <a href="C:\Users\91702\Documents\GitHub\51_code-bros\html files\login.html">Sign in</a>.</p>
         </div>
 </form>
 </div>
